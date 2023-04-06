@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  /* background: #222; */
+}
+
+.images{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.images img{
+  height: 200px;
+}
+.pagination{
+  border: 2px solid red;
+  list-style: none;
+  width: 80%;
+  margin-top: 7%;
+  margin-left: 10%;
+  display: flex;
+  /* color: aliceblue; */
+  justify-content: center;
+}
+.page-num{
+  border: 2px solid black;
+  margin: 5px;
+  padding: 1px 5px;
+  cursor: pointer;
+}
+.active{
+  background: aqua;
+}
